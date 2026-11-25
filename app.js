@@ -37,7 +37,7 @@ document.getElementById('toggle-password').addEventListener('click', event => {
 });
 document.getElementById('password-form').addEventListener('submit', event => {
   event.preventDefault();
-  if (input.value !== data.password) { error.textContent = 'IHH MASAA GATAW SIIII'; input.setAttribute('aria-invalid', 'true'); input.focus(); return; }
+  if (input.value.trim().toLowerCase() !== data.password.toLowerCase()) { error.textContent = 'IHH MASAA GATAW SIIII'; input.setAttribute('aria-invalid', 'true'); input.focus(); return; }
   unlocked = true; input.value = ''; error.textContent = ''; show('home');
 });
 document.getElementById('memories-card').addEventListener('click', () => show('memories'));

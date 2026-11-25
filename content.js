@@ -2,7 +2,7 @@
 // Password ini adalah gerbang kejutan di browser, BUKAN keamanan data pribadi.
 window.BIRTHDAY = {
   name: "my favorite person",
-  password: "ndul", // Cara bikin biar dia case insensitive gimana jir
+  password: "ndul",
   passwordHint: "Clue: PANGGILAN KAMUU BUAT AKUU",
   introMessage: [
     "SELAMAT ULANG TAHUNN SAYANGG ♡",
